@@ -1,0 +1,187 @@
+
+
+
+
+
+@media only screen and (max-width:800px) {
+    .toggle {
+        display: block;
+    }
+
+    .menubar {
+        position: absolute;
+        top: 120px;
+        width: 100%;
+        background-color: #2e2e2e;
+    }
+
+    .menubar ul {
+        display: none;
+    }
+
+    .menubar ul.active {
+        display: block;
+    }
+
+
+    .menubar ul li {
+        float: none;
+    }
+
+    .menubar ul li a {
+        text-align: center;
+    }
+
+    .logo {
+        width: 80px;
+        margin-left: 80px;
+    }
+
+    .arch-pro-box {
+        width: 100%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .program-box {
+        width: 100%;
+        margin: 20px 5px;
+        padding-top: 0;
+
+    }
+
+
+
+    .latest-pro {
+        width: 100%;
+        padding-top: 0;
+    }
+
+
+    .title {
+        width: 100%;
+        margin-top: 0;
+        padding: 50px 0;
+
+    }
+
+    .detail-box {
+        width: 100%;
+        margin: 5px;
+        padding: 20px;
+
+    }
+
+    .detail-box img {
+        width: 20%;
+        margin: 5px;
+    }
+
+    /* ------------ about us ------------- */
+
+    .img-info-box {
+        width: 80%;
+        padding: 20px;
+    }
+    .reputed-company {
+        width: 100%;
+        margin: 0px 0;
+        background-color: rgb(246, 246, 246);
+    }
+    .reputed-company-mainbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    
+
+
+    /* -----------------About Us End ------------*/
+
+    /* ----------------- Product ------------*/
+
+    .product-categories-mainbox {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+
+    }
+
+    .product-img-box {
+        width: 40%;
+    }
+
+    .product-categories-box {
+        width: 80%;
+    }
+
+    .product-categories-box p span {
+        margin-left: 270px;
+    
+    }
+
+
+    /* -------------------Types Of Railing--------------- */
+
+    .type-of-railing{
+        width: 100%;
+        padding: 50px 0;
+    }
+    
+    .type-of-railing-mainbox{
+        display: flex;
+        justify-self: center;
+        flex-wrap: wrap;
+
+    
+    }
+    .types-of-railing-box{
+        width: 80%;
+        padding: 10px;
+    }
+    .types-of-railing-box img{
+        width: 100%;
+    }
+    .types-of-railing-box p{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        color: #2e2e2e;
+    }
+
+     /* -------------------Types Of Railing End--------------- */
+
+      /* -------------------Contact Us--------------- */
+      .map-box {
+        width: 100%;
+        padding: 50px;
+        height: 600px;
+    }
+      .contact-addres-mainbox {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+      .contact-addres-box {
+        width: 100%;
+        padding: 50px;
+        margin: 10px;
+
+    }
+    
+    .contact-addres-box h3 {
+        font-size: 24px;
+        color: #2e2e2e;
+        font-weight: 700;
+    }
+    textarea {
+        width: 100%;
+        border: none;
+        background-color: #f7f7f7;
+    }
+
+}
+
+

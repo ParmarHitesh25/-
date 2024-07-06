@@ -1,0 +1,841 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    ;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.nav-bg {
+    background-image: url(image/Product/product-cover-scaled.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.menu {
+    width: 100%;
+    margin: auto;
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menubar ul {
+    list-style: none;
+}
+
+.menubar ul li {
+    float: left;
+}
+
+.menubar ul li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.s;
+
+}
+
+.menubar ul li a:hover {
+    color: #b68a3c;
+}
+
+.menubar ul li a:focus {
+    color: #b68a3c;
+}
+
+.menubar ul li a:active {
+    color: #b68a3c;
+}
+
+.toggle {
+    display: none;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    background-color: #b68a3c;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+
+
+/*------------- menubar------------- */
+
+.archi-pro {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.arch-pro-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.arch-pro-box {
+    width: 40%;
+    margin: 20px 5px;
+    padding: 25px;
+
+}
+
+.arch-pro-box img {
+    width: 100%;
+}
+
+.arch-pro-box h2 {
+    color: #2e2e2e;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.35;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.arch-pro-box p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.btn {
+    padding: 0 20px;
+    margin-top: 10px;
+    background-color: #b68a3c;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.btn:hover {
+    background-color: #287980;
+}
+
+
+
+.latest-pro {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.latest-pro-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    width: 100%;
+    margin-top: 20px;
+    padding: 50px 0;
+
+}
+
+.title h2 {
+    color: #2e2e2e;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.title span {
+    color: #b68a3c;
+}
+
+.title p {
+    font-size: 15px;
+    font-size: 400;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* ------------swider--------- */
+
+.swiper {
+    width: 100%;
+    max-width: 1170px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+
+}
+
+/* ------------swider end--------- */
+
+/* ------------------program------------------ */
+.program {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.program-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.program-box {
+    width: 40%;
+    margin: 20px 5px;
+    padding: 25px;
+
+}
+
+.program-box img {
+    width: 100%;
+}
+
+.program-box h2 {
+    color: #2e2e2e;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.35;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.program-box p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*-------------- youtube-video------------- */
+
+.youtube-video {
+    width: 100%;
+    padding-bottom: 100px;
+
+
+}
+
+.youtube-video-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.videoslider {
+    width: 30%;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.videoslider img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.videoslider p {
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.videoslider img:hover {
+    border: 2px solid black;
+    background-color: black;
+    opacity: 40%;
+}
+
+.button {
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+    position: relative;
+
+
+}
+
+
+
+/* ---------------*footer*------------- */
+.company-detail {
+    width: 100%;
+    padding: 20px 0;
+    padding-bottom: 100px;
+    background-color: #f4f4f4;
+}
+
+.company-detail-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.detail-box {
+    width: 30%;
+    margin: 10px;
+
+}
+
+.detail-box img {
+    width: 35%;
+
+}
+
+.detail-box p {
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 25px;
+    color: #333;
+}
+
+.detail-box {
+    color: #333;
+}
+
+.quick-link ul {
+    list-style: none;
+}
+
+.quick-link ul li {
+    float: none;
+}
+
+.quick-link ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.quick-link ul li a:hover {
+    color: #b68a3c;
+}
+
+.contact-us ul {
+    list-style: none;
+}
+
+.contact-us ul li {
+    float: none;
+}
+
+.contact-us ul li {
+    padding: 0;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.contact-us ul li svg {
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+
+.contact-us ul li svg:hover {
+    color: #b68a3c;
+}
+
+.copy-right {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* --------------------Home Page End --------------------------*/
+
+/* --------------------About us --------------------------*/
+
+.nav-bg-about {
+
+    width: 100%;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    background-color: #2e2e2e;
+}
+
+.nav-bg-about::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/aboutus/about-us-cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 70%;
+}
+
+.title-page {
+    padding: 100px 0;
+    text-align: center
+}
+
+.title-page h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 30px;
+}
+
+.title-page p a {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 50px;
+    text-decoration: none
+}
+
+.title-page p a:hover {
+    color: #b68a3c;
+
+}
+
+.title-page span {
+    color: #b68a3c;
+}
+
+.information {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.information-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-info-box {
+    width: 45%;
+    padding: 20px;
+}
+
+.img-info-box img {
+    width: 100%;
+}
+
+.img-info-box h2 {
+    color: #2e2e2e;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.img-info-box p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px 0;
+
+}
+
+.reputed-company {
+    width: 100%;
+    margin: 110px 0;
+    background-color: rgb(246, 246, 246);
+}
+
+
+.reputed-company-mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ---------------------------About Us End---------------------- */
+
+
+/* ---------------------------Product Types---------------------- */
+.nav-bg-product {
+    background-image: url(image/Product/product-cover-scaled.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.product-categories {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.product-categories-mainbox {
+    display: flex;
+    justify-content: center;
+
+}
+
+.product-categories-box {
+    width: 25%;
+}
+
+.product-categories-box h4 {
+    line-height: 40px;
+    border-bottom: 2px solid black;
+
+}
+
+.product-categories-box p a {
+    line-height: 40px;
+    text-decoration: none;
+    color: #2e2e2e;
+
+}
+
+.product-categories-box p span {
+    font-size: 20px;
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 900;
+
+}
+
+.product-categories-box p a:hover {
+    color: #b68a3c;
+}
+
+.product-categories-box p a:focus {
+    color: #b68a3c;
+}
+
+.product-categories-box1 {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-categories-box1 p {
+    text-align: center;
+}
+
+.product-img-box a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+.product-img-box a:hover {
+    color: #287980;
+}
+
+.product-img-box {
+    width: 30%;
+    margin: 10px;
+}
+
+.product-img-box img {
+    width: 100%;
+}
+
+
+
+/* -------------------Types Of Railing--------------- */
+.nav-bg-type {
+    background-image: url(image/Types/types-of-railing-cover.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.type-of-railing {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.type-of-railing-mainbox {
+    display: flex;
+    justify-self: center;
+
+}
+
+.types-of-railing-box {
+    width: 30%;
+    padding: 10px;
+}
+
+.types-of-railing-box a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+.types-of-railing-box a p:hover {
+    color: #287980;
+}
+
+.types-of-railing-box img {
+    width: 100%;
+}
+
+.types-of-railing-box p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #2e2e2e;
+}
+
+/* -------------------Types Of Railing End--------------- */
+
+
+
+/* -------------------  Contact Us --------------- */
+
+.nav-bg-contact {
+    background-image: url(image/contactus/contact-us-cover.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.map {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.map-mainbox {
+    display: flex;
+    justify-content: center;
+}
+
+.map-box {
+    width: 100%;
+    padding: 30px;
+    height: 600px;
+}
+
+.contact-addres {
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.contact-addres-mainbox {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-addres-box {
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.contact-addres-box h3 {
+    font-size: 24px;
+    color: #2e2e2e;
+    font-weight: 700;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    background-color: #f7f7f7;
+}
+
+input ::placeholder {
+    color: #2e2e2e;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #f7f7f7;
+}
+
+.icon svg {
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    margin: 10px;
+    color: #2e2e2e;
+}
+
+.icon {
+    width: 100%;
+    padding: 10px;
+}
+
+.icon h6 {
+    font-size: 16px;
+    line-height: 30px;
+    text-indent: 50px;
+    color: #2e2e2e;
+}
+
+.icon p {
+    font-size: 14px;
+    line-height: 30px;
+    text-indent: 50px;
+    color: #2e2e2e;
+}
+
+/* -------------------  Contact Us End --------------- */
+
+
+/* -------------------  Product detail page --------------- */
+.nav-bg-productdetail {
+    background-color: #2e2e2e;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
+.img-conten {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+
+}
+
+.img-conten-mainbox {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.img-conten-box {
+    width: 45%;
+    margin: 20px;
+}
+
+.img-conten-box img {
+    width: 100%;
+}
+
+.img-conten-box h5 {
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.img-conten-box p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+.related-product {
+    width: 100%;
+    padding: 50px 0;
+    padding-bottom: 100px;
+}
+
+/* -------------------  Product detail page End --------------- */
+
+/* -------------------  Aluminium System Page --------------- */
+
+
+.nav-bg-aluminiumsystem {
+    background-image: url(image/Types/22.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.nav-bg-stainles {
+    background-image: url(image/Types/21-2-1.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
